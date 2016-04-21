@@ -4,7 +4,7 @@
   "description": "example.on('end', mustCall(() => {})); Check the callback function is called. ",
   "main": "index.js",
   "scripts": {
-    "test": "eater --dir test/index",
+    "test": "eater --dir test/index --mode tap",
     "cov": "nyc npm test",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
