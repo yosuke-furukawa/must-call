@@ -1,0 +1,27 @@
+{
+  "name": "must-call",
+  "version": "1.0.0",
+  "description": "example.on('end', mustCall(() => {})); Check the callback function is called. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "eater --dir test/index",
+    "cov": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosuke-furukawa/must-call.git"
+  },
+  "keywords": [
+    "assertion"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/must-call/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/must-call#readme",
+  "devDependencies": {
+    "eater": "^1.3.0",
+    "nyc": "^6.4.0"
+  }
+}
