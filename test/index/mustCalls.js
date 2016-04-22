@@ -1,4 +1,4 @@
-const mustCall = require('../..');
+const mustCall = require('../../index');
 const assert = require('assert');
 const fixture = require('../fixture');
 
