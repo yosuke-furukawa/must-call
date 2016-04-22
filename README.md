@@ -20,4 +20,4 @@ somePromiseTest().then(mustCall(() => {
 }));
 ```
 
-
+![image](./images/example.png)
