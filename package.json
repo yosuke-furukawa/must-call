@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/yosuke-furukawa/must-call#readme",
   "devDependencies": {
-    "coveralls": "^2.11.9",
-    "eater": "^1.3.0"
+    "coveralls": "2.13.3",
+    "eater": "1.7.0"
   }
 }
